@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenTask</title>
+    <link rel="icon" type="image/png" href="imgs/icon.png">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imgs/hd.png" alt="OpenTask Logo">
+            </div>
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#features">Features</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#join-now">Join Now</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://x.com/OpenTask_" aria-label="Twitter" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://t.me/OpenTask_Portal" aria-label="Telegram" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="imgs/v1.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+                <div class="bottom-overlay"></div>
+            </div>
+            <h1>
+                
+                    <span class="changing-word"></span>
+                
+                The Way Freelancing Should Be.
+            </h1>
+            <p>Welcome to OpenTask, the decentralized freelance platform redefining trust and efficiency. With smart contracts, DID, and a transparent reputation system, OpenTask eliminates high fees, delays, and unfair arbitration. Whether you're a developer, designer, writer, or entrepreneur, connect and collaborate securely—without intermediaries.</p>
+            <div class="cta-buttons">
+                <button class="primary">Get Started</button>
+                <button class="secondary">Learn More</button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="features-container">
+                <div class="section-header">
+                    <span class="badge">OpenTask</span>
+                    <h2>Product Features</h2>
+                </div>
+                <div class="tabs">
+                    <button class="tab-btn active" data-target="freelancers">For Freelancers</button>
+                    <button class="tab-btn" data-target="employers">For Employers</button>
+                </div>
+                
+                <div class="tab-content active" id="freelancers">
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Decentralized Profile & Reputation</h3>
+                            <ul>
+                                <li><strong>Web3 Profile & Decentralized Identity (DID):</strong> Create a verifiable on-chain profile showcasing skills and work history.</li>
+                                <li><strong>On-Chain Reputation System (NFT-Based):</strong> Reputation scores dynamically update based on task completion and client feedback.</li>
+                                <li><strong>Cross-Platform Credibility:</strong> Sync professional profiles from LinkedIn, GitHub, Behance, and more.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Smart Job Matching & Secure Payments</h3>
+                            <ul>
+                                <li><strong>AI-Driven Task Matching:</strong> Smart algorithms match freelancers with relevant job postings based on skills and past performance.</li>
+                                <li><strong>Instant Smart Contract Payments:</strong> Payments are escrowed and automatically released upon task completion, eliminating delays.</li>
+                                <li><strong>Multi-Payment Support:</strong> Choose to receive payments in crypto ($TASK, ETH, USDT, USDC) or fiat (via Stripe, PayPal, or bank transfer).</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Earnings & Growth Opportunities</h3>
+                            <ul>
+                                <li><strong>Staking & Incentives:</strong> High-quality work earns additional $TASK token rewards.</li>
+                                <li><strong>Task Catalog & Fixed-Priced Services:</strong> Freelancers can list predefined services, making it easy for clients to hire instantly.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="employers">
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Efficient Hiring & AI-Optimized Matching</h3>
+                            <ul>
+                                <li><strong>Task Posting & Smart Matching:</strong> AI-driven recommendations help find the best-fit freelancer for each job.</li>
+                                <li><strong>Short-Term & Long-Term Contracts:</strong> Support for gig work, recurring projects, and full-time remote hiring.</li>
+                                <li><strong>Fixed-Priced & Bidding System:</strong> Employers can set fixed project rates or allow freelancers to bid competitively.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Reputation-Based Freelancer Selection</h3>
+                            <ul>
+                                <li><strong>On-Chain Reputation System:</strong> Select freelancers based on verifiable blockchain-based reputation scores, ensuring transparency and trust.</li>
+                                <li><strong>Traditional Rating System:</strong> Employers can review freelancer ratings, feedback, and work history, providing a familiar evaluation process for non-Web3 users.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="card-image"></div>
+                            <h3>Secure Payments & Performance Monitoring</h3>
+                            <ul>
+                                <li><strong>Smart Contract Escrow Protection:</strong> Funds are securely held in escrow until work is approved.</li>
+                                <li><strong>Multi-Payment Support:</strong> Pay with fiat or crypto, offering flexibility for both Web3 and traditional businesses.</li>
+                                <li><strong>Performance Analytics:</strong> Track freelancer progress and collaboration efficiency through a transparent dashboard.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Change from Carousel to Tabs Section -->
+        <section id="how-it-works" class="carousel-section">
+            <div class="section-header">
+                <span class="badge">OpenTask</span>
+                <h2>Supports Web3 & Traditional Work</h2>
+            </div>
+            
+            <div class="features-wrapper">
+                <div class="vertical-tabs">
+                    <button class="vertical-tab-btn active" data-target="job-posting">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.5 -0.5 24 24" class="tab-icon">
+                            <desc>Case Streamline Icon</desc>
+                            <g>
+                                <path stroke="#94A3B8" d="M2.875 11.5c0 3.614 0 7.338 1.263 8.46C5.401 21.083 7.434 21.083 11.5 21.083c4.066 0 6.099 0 7.362-1.123C20.125 18.838 20.125 15.114 20.125 11.5" stroke-width="1"/>
+                                <path stroke="#94A3B8" d="M6.229 4.792c.79-.02 1.59-.523 1.859-1.265.008-.023.017-.048.034-.1L8.146 3.355c.04-.122.06-.182.082-.236.276-.687.923-1.153 1.662-1.198.06-.004.124-.004.252-.004h2.72c.127 0 .191 0 .249.004.74.045 1.386.511 1.663 1.198.021.054.042.114.082.236l.025.074c.017.05.025.076.034.1.181.47.982.972 1.77.992" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="m14.05 13.61 5.757-1.727c.57-.171.856-.257 1.037-.462.035-.04.067-.083.095-.128.144-.233.144-.531.144-1.127 0-2.348 0-3.522-.645-4.315-.124-.152-.263-.291-.416-.415C19.23 4.792 18.056 4.792 15.708 4.792H7.292c-2.348 0-3.522 0-4.315.645-.152.124-.291.263-.415.415C1.917 6.645 1.917 7.819 1.917 10.167c0 .596 0 .894.144 1.126.028.045.06.088.095.128.181.205.467.291 1.037.462l5.757 1.727" stroke-width="1"/>
+                                <path stroke="#3B82F6" stroke-linecap="round" d="M13.417 11.98h-3.834c-.264 0-.479.214-.479.479v2.071c0 .196.12.372.301.445l.671.268c.914.366 1.934.366 2.848 0l.67-.268c.183-.073.302-.249.302-.445v-2.071c0-.265-.215-.48-.48-.48Z" stroke-width="1"/>
+                            </g>
+                        </svg>
+                        Job Posting & Smart Matching
+                    </button>
+                    <button class="vertical-tab-btn" data-target="payment">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.5 -0.5 24 24" class="tab-icon">
+                            <desc>Card Transfer Streamline Icon</desc>
+                            <g>
+                                <path stroke="#94A3B8" stroke-linecap="round" stroke-linejoin="round" d="M19.167 19.167v-5.75m0 0 1.917 1.917m-1.917-1.917-1.917 1.917" stroke-width="1"/>
+                                <path stroke="#94A3B8" stroke-linecap="round" d="M9.583 15.333H5.75" stroke-width="1"/>
+                                <path stroke="#94A3B8" stroke-linecap="round" d="M1.917 9.583h19.167" stroke-width="1"/>
+                                <path stroke="#3B82F6" stroke-linecap="round" d="M21.082 10.542c-.009-2.985-.103-4.567-1.122-5.586C18.838 3.833 17.03 3.833 13.417 3.833h-3.834c-3.614 0-5.421 0-6.544 1.123C1.917 6.079 1.917 7.886 1.917 11.5c0 3.614 0 5.421 1.123 6.544 1.123 1.123 2.93 1.123 6.544 1.123h1.437" stroke-width="1"/>
+                                <path stroke="#3B82F6" stroke-linecap="round" stroke-linejoin="round" d="M14.854 13.417v5.75m0 0 1.917-1.917m-1.917 1.917-1.917-1.917" stroke-width="1"/>
+                            </g>
+                        </svg>
+                        Multi-Payment Options
+                    </button>
+                    <button class="vertical-tab-btn" data-target="reputation">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.5 -0.5 24 24" class="tab-icon">
+                            <desc>Crown Star Streamline Icon</desc>
+                            <g>
+                                <path stroke="#94A3B8" d="M10.681 12.001c.364-.653.546-.98.819-.98.272 0 .454.327.818.98l.094.169c.104.186.156.278.236.34.081.061.181.084.382.13l.183.041c.707.16 1.061.24 1.145.51.084.271-.157.553-.639 1.116l-.125.146c-.137.16-.205.24-.236.34-.031.099-.02.206 0 .42l.019.194c.073.752.11 1.128-.11 1.295-.221.167-.552.015-1.214-.29l-.171-.079c-.188-.087-.282-.13-.382-.13-.1 0-.194.043-.382.13l-.171.079c-.662.305-.993.457-1.214.29-.22-.167-.183-.543-.11-1.295l.019-.195c.02-.214.03-.32 0-.42-.031-.099-.1-.179-.236-.339l-.125-.146c-.482-.564-.723-.846-.639-1.116.084-.271.438-.351 1.145-.51l.183-.042c.2-.045.301-.068.382-.13.08-.061.132-.154.236-.34l.094-.169Z" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="m20.709 12.997.22-2.334c.172-1.833.258-2.75-.055-3.128-.17-.205-.4-.33-.647-.352-.456-.04-1.028.612-2.173 1.915-.592.674-.888 1.011-1.219 1.063-.183.029-.37-.001-.538-.086-.305-.153-.508-.57-.915-1.403l-2.144-4.393C12.47 2.704 12.085 1.917 11.5 1.917c-.585 0-.969.787-1.738 2.362L7.619 8.671c-.407.834-.61 1.25-.915 1.404-.169.085-.356.115-.538.086-.33-.052-.627-.39-1.219-1.063-1.145-1.303-1.717-1.955-2.173-1.915-.247.022-.477.147-.647.352-.314.379-.227 1.295-.055 3.128l.22 2.334c.362 3.845.543 5.768 1.676 6.927 1.133 1.16 2.832 1.16 6.229 1.16h2.606c3.397 0 5.096 0 6.23-1.16 1.133-1.159 1.314-3.082 1.676-6.927Z" stroke-width="1"/>
+                            </g>
+                        </svg>
+                        Reputation System
+                    </button>
+                    <button class="vertical-tab-btn" data-target="dispute">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.5 -0.5 24 24" class="tab-icon">
+                            <desc>Share Circle Streamline Icon</desc>
+                            <g>
+                                <path stroke="#94A3B8" stroke-linecap="round" d="M19.167 12.458c0-2.29-1.004-4.345-2.596-5.75M3.833 12.458c0-2.29 1.004-4.345 2.596-5.75M9.583 19.884c.613.157 1.255.241 1.917.241.662 0 1.304-.084 1.917-.241" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="M11.5 8.625c-1.588 0-2.875-1.287-2.875-2.875S9.912 2.875 11.5 2.875s2.875 1.287 2.875 2.875-1.287 2.875-2.875 2.875Z" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="M5.271 20.125c-1.588 0-2.875-1.287-2.875-2.875s1.287-2.875 2.875-2.875 2.875 1.287 2.875 2.875-1.287 2.875-2.875 2.875Z" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="M17.729 20.125c-1.588 0-2.875-1.287-2.875-2.875s1.287-2.875 2.875-2.875S20.604 15.662 20.604 17.25s-1.287 2.875-2.875 2.875Z" stroke-width="1"/>
+                            </g>
+                        </svg>
+                        Dispute Resolution & Protection
+                    </button>
+                    <button class="vertical-tab-btn" data-target="collaboration">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-0.5 -0.5 24 24" class="tab-icon">
+                            <desc>Pen New Round Streamline Icon</desc>
+                            <g>
+                                <path stroke="#94A3B8" d="M15.959 3.311s.078 1.321 1.244 2.487c1.166 1.166 2.487 1.244 2.487 1.244M9.68 14.938 8.063 13.32" stroke-width="1"/>
+                                <path stroke="#94A3B8" stroke-linecap="round" d="M21.083 11.5c0 5.293-4.29 9.583-9.583 9.583-5.293 0-9.583-4.29-9.583-9.583C1.917 6.207 6.207 1.917 11.5 1.917" stroke-width="1"/>
+                                <path stroke="#3B82F6" d="m15.958 3.311.622-.622c1.03-1.03 2.7-1.03 3.73 0 1.03 1.03 1.03 2.7 0 3.731l-.622.622-5.716 5.716c-.387.387-.58.58-.794.747-.252.196-.524.365-.813.502-.244.117-.504.203-1.023.376l-1.663.555-1.076.359c-.256.085-.538.018-.728-.172-.19-.191-.257-.472-.172-.728l.359-1.076.554-1.663c.173-.52.26-.78.376-1.024.138-.288.306-.56.502-.812.167-.214.36-.407.747-.794l5.717-5.717Z" stroke-width="1"/>
+                            </g>
+                        </svg>
+                        Remote Collaboration Tools
+                    </button>
+                </div>
+
+                <div class="vertical-tab-content">
+                    <div class="tab-panel card active" id="job-posting">
+                        <h3>Job Posting & Smart Matching</h3>
+                        <ul class="panel-list">
+                            <li><strong>Web3 & Traditional Support:</strong> Businesses and individuals can post freelance jobs in crypto-native and non-crypto fields.</li>
+                            <li><strong>AI-Powered Matching:</strong> Matches freelancers based on skills, experience, and reputation scores.</li>
+                            <li><strong>Flexible Work Models:</strong> Supports one-time gigs, long-term contracts, and enterprise-level remote teams.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-panel card" id="payment">
+                        <h3>Multi-Payment Options</h3>
+                        <ul class="panel-list">
+                            <li><strong>Smart Contract Escrow:</strong> Payments in $TASK, ETH, USDT, or USDC are securely held until task completion.</li>
+                            <li><strong>Fiat Payment Support:</strong> Integrated with Stripe, PayPal, and bank transfers for seamless transactions.</li>
+                            <li><strong>Hybrid Payment Model:</strong> Enterprises can pay in fiat while freelancers can opt for crypto or traditional currency.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-panel card" id="reputation">
+                        <h3>Reputation System</h3>
+                        <ul class="panel-list">
+                            <li><strong>Web3 NFT Reputation:</strong> Freelancers earn verifiable, on-chain reputation scores.</li>
+                            <li><strong>Traditional Rating System:</strong> Non-Web3 users receive ratings based on client feedback, completion rates, and work history.</li>
+                            <li><strong>Cross-Platform Credibility:</strong> Link professional accounts like LinkedIn, GitHub, and Behance for enhanced visibility.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-panel card" id="dispute">
+                        <h3>Dispute Resolution & Protection</h3>
+                        <ul class="panel-list">
+                            <li><strong>DAO Arbitration:</strong> Disputes are settled through community voting by $TASK token holders.</li>
+                            <li><strong>Platform Arbitration:</strong> Multi-level resolution, including AI-based analysis and manual review.</li>
+                            <li><strong>Secure Documentation:</strong> Web3 jobs are recorded immutably, while traditional jobs use legally binding e-contracts (DocuSign).</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-panel card" id="collaboration">
+                        <h3>Remote Collaboration Tools</h3>
+                        <ul class="panel-list">
+                            <li><strong>Communication Tools:</strong> Built-in chat & voice communication enables direct freelancer-client interaction.</li>
+                            <li><strong>Project Management:</strong> Integrated with Google Drive, Notion, Figma, and Trello.</li>
+                            <li><strong>Performance Dashboard:</strong> Track projects, income, contracts, and performance analytics.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this section after the carousel-section -->
+        <section class="choose-us">
+            <div class="section-header">
+                <span class="badge">OpenTask</span>
+                <h2>Choose Us, No Regrets</h2>
+            </div>
+            
+            <div class="choose-us-grid">
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" class="choose-us-svg">
+                                <desc>Briefcase Duotone Streamline Icon: https://streamlinehq.com</desc>
+                                <g>
+                                    <path fill="#364f73" d="M243.7908 125.9616v98.5307c0 2.5595 -1.0168 5.014 -2.8261 6.8232s-4.2637 2.826 -6.8232 2.826H21.8585c-2.5591 0 -5.0135 -1.0168 -6.8231 -2.826 -1.8095 -1.8092 -2.8262 -4.2637 -2.8262 -6.8232v-98.5307C47.399 146.3191 87.3461 157.0092 128 156.9477c40.6546 0.0651 80.6024 -10.625 115.7908 -30.9861Z" stroke-width="1"/>
+                                    <path fill="#3B82F6" d="M99.0523 118.3508c0 -2.5595 1.0168 -5.014 2.826 -6.8232s4.2638 -2.8261 6.8232 -2.8261h38.597c2.5594 0 5.0139 1.0168 6.8232 2.8261s2.826 4.2637 2.826 6.8232 -1.0168 5.0139 -2.826 6.8232 -4.2638 2.826 -6.8232 2.826h-38.597c-2.5594 0 -5.0139 -1.0168 -6.8232 -2.826s-2.826 -4.2638 -2.826 -6.8232ZM253.44 70.1046v154.3877c0 5.1177 -2.0336 10.0268 -5.652 13.6464 -3.6197 3.6185 -8.5288 5.6521 -13.6465 5.6521H21.8585c-5.1184 0 -10.0269 -2.0336 -13.6461 -5.6521C4.5932 234.5191 2.56 229.61 2.56 224.4923V70.1046c0 -5.1183 2.0332 -10.0269 5.6524 -13.646 3.6192 -3.6192 8.5277 -5.6524 13.6461 -5.6524h48.2461v-9.6493c0 -7.6774 3.0499 -15.0404 8.4785 -20.4691 5.4288 -5.4287 12.7918 -8.4786 20.4692 -8.4786h57.8954c7.6772 0 15.0407 3.0499 20.4696 8.4786 5.4277 5.4287 8.4781 12.7917 8.4781 20.4691v9.6492h48.2461c5.1177 0 10.0268 2.0333 13.6465 5.6524 3.6184 3.6192 5.652 8.5278 5.652 13.6461ZM89.4031 50.8062h77.1938v-9.6493c0 -2.5591 -1.0168 -5.0135 -2.826 -6.8231 -1.8092 -1.8094 -4.2638 -2.8261 -6.8232 -2.8261H99.0523c-2.5595 0 -5.0135 1.0167 -6.8231 2.8261 -1.8095 1.8096 -2.8261 4.264 -2.8261 6.8231v9.6492ZM21.8585 70.1046v50.2001C54.4297 138.0255 90.9204 147.3057 128 147.2985c37.0808 0.006 73.573 -9.2778 106.1415 -27.0058V70.1046H21.8585Zm212.283 154.3877v-82.4647c-33.0474 16.166 -69.3514 24.5705 -106.1415 24.5693 -36.7893 0.0073 -73.0938 -8.3924 -106.1415 -24.5573v82.4527h212.283Z" stroke-width="1"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>One Platform for Web3 & Traditional Work</h3>
+                    </div>
+                    <p>Seamlessly supports blockchain and non-blockchain jobs for all professionals.</p>
+                </div>
+
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" class="choose-us-svg">
+                                <desc>Credit Card Duotone Streamline Icon: https://streamlinehq.com</desc>
+                                <g>
+                                    <path fill="#364f73" d="M244.48 92.16v107.52c0 2.3766 -0.9442 4.6558 -2.6242 6.3358s-3.9592 2.6242 -6.3358 2.6242H20.48c-2.3763 0 -4.6554 -0.9442 -6.3357 -2.6242 -1.6802 -1.68 -2.6243 -3.9592 -2.6243 -6.3358V92.16h232.96Z" stroke-width="1"></path>
+                                    <path fill="#3B82F6" d="M235.52 38.4H20.48c-4.7527 0 -9.3107 1.888 -12.6713 5.2487C4.448 47.0093 2.56 51.5673 2.56 56.32v143.36c0 4.7522 1.888 9.3106 5.2487 12.6717 3.3606 3.36 7.9186 5.2483 12.6713 5.2483h215.04c4.7522 0 9.3106 -1.8883 12.6717 -5.2483 3.36 -3.3611 5.2483 -7.9195 5.2483 -12.6717V56.32c0 -4.7527 -1.8883 -9.3107 -5.2483 -12.6713C244.8306 40.288 240.2722 38.4 235.52 38.4Zm0 17.92V83.2H20.48V56.32h215.04Zm0 143.36H20.48v-98.56h215.04v98.56ZM217.6 172.8c0 2.3766 -0.9442 4.6558 -2.6242 6.3358s-3.9592 2.6242 -6.3358 2.6242H172.8c-2.3766 0 -4.6558 -0.9442 -6.3358 -2.6242s-2.6242 -3.9592 -2.6242 -6.3358 0.9442 -4.6558 2.6242 -6.3358 3.9592 -2.6242 6.3358 -2.6242h35.84c2.3766 0 4.6558 0.9442 6.3358 2.6242S217.6 170.4234 217.6 172.8Zm-71.68 0c0 2.3766 -0.9442 4.6558 -2.6242 6.3358s-3.9592 2.6242 -6.3358 2.6242h-17.92c-2.3766 0 -4.6558 -0.9442 -6.3358 -2.6242s-2.6242 -3.9592 -2.6242 -6.3358 0.9442 -4.6558 2.6242 -6.3358 3.9592 -2.6242 6.3358 -2.6242h17.92c2.3766 0 4.6558 0.9442 6.3358 2.6242s2.6242 3.9592 2.6242 6.3358Z" stroke-width="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Secure & Flexible Payments</h3>
+                    </div>
+                    <p>Smart contract escrow, crypto & fiat support, hybrid payment options.</p>
+                </div>
+
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" class="choose-us-svg">
+                                <desc>Star Four Duotone Streamline Icon: https://streamlinehq.com</desc>
+                                <g>
+                                    <path fill="#364f73" d="m226.76 135.48 -66.94 24.34 -24.34 66.94c-0.568 1.531 -1.591 2.851 -2.932 3.784 -1.341 0.932 -2.935 1.432 -4.568 1.432 -1.633 0 -3.227 -0.5 -4.568 -1.432 -1.34 -0.933 -2.364 -2.253 -2.932 -3.784l-24.3 -66.94 -66.94 -24.34c-1.531 -0.568 -2.8514 -1.591 -3.7838 -2.932 -0.9325 -1.341 -1.4323 -2.935 -1.4323 -4.568 0 -1.633 0.4998 -3.227 1.4323 -4.568 0.9324 -1.34 2.2528 -2.364 3.7838 -2.932l66.94 -24.3 24.34 -66.94c0.568 -1.531 1.592 -2.8514 2.932 -3.7838 1.341 -0.9325 2.935 -1.4323 4.568 -1.4323 1.633 0 3.227 0.4998 4.568 1.4323 1.341 0.9324 2.364 2.2528 2.932 3.7838l24.34 66.94 66.94 24.34c1.516 0.58 2.82 1.607 3.739 2.946 0.919 1.338 1.408 2.924 1.404 4.548 -0.004 1.623 -0.503 3.207 -1.428 4.54 -0.926 1.334 -2.236 2.354 -3.755 2.926Z" stroke-width="1"></path>
+                                    <path fill="#3B82F6" d="m229.5 113 -63.44 -23.0599 -23.06 -63.44c-1.136 -3.062 -3.183 -5.7029 -5.864 -7.5678 -2.682 -1.8648 -5.87 -2.8644 -9.136 -2.8644 -3.266 0 -6.454 0.9996 -9.135 2.8644 -2.682 1.8649 -4.728 4.5058 -5.865 7.5678l-23.0599 63.44L26.5001 113c-3.062 1.137 -5.7029 3.183 -7.5678 5.865 -1.8648 2.681 -2.8644 5.869 -2.8644 9.135s0.9996 6.454 2.8644 9.136c1.8649 2.681 4.5058 4.728 7.5678 5.864l63.44 23.07L113 229.5c1.137 3.062 3.183 5.703 5.865 7.568 2.681 1.865 5.869 2.864 9.135 2.864s6.454 -0.999 9.136 -2.864c2.681 -1.865 4.728 -4.506 5.864 -7.568l23.07 -63.44L229.5 143c3.062 -1.136 5.703 -3.183 7.568 -5.864 1.865 -2.682 2.864 -5.87 2.864 -9.136 0 -3.266 -0.999 -6.454 -2.864 -9.135 -1.865 -2.682 -4.506 -4.728 -7.568 -5.865Zm-72.42 39.3c-1.097 0.4 -2.094 1.035 -2.92 1.86 -0.825 0.826 -1.46 1.823 -1.86 2.92L128 223.9l-24.3 -66.82c-0.399 -1.097 -1.034 -2.094 -1.86 -2.92 -0.826 -0.825 -1.823 -1.46 -2.9199 -1.86l-66.82 -24.3 66.82 -24.3c1.0969 -0.399 2.0939 -1.034 2.9199 -1.86 0.826 -0.826 1.461 -1.823 1.86 -2.9199l24.3 -66.82 24.3 66.82c0.4 1.0969 1.035 2.0939 1.86 2.9199 0.826 0.826 1.823 1.461 2.92 1.86L223.9 128l-66.82 24.3Z" stroke-width="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Reputation You Can Trust</h3>
+                    </div>
+                    <p>Blockchain-based NFT credentials, traditional rating system, cross-platform credibility.</p>
+                </div>
+
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" class="choose-us-svg">
+                                <desc>Pen Nib Duotone Streamline Icon: https://streamlinehq.com</desc>
+                                <g>
+                                    <path fill="#364f73" d="M19.2823 161.4445h33.4445v58.5279H19.2823c-2.2175 0 -4.3443 -0.881 -5.9123 -2.4488 -1.568 -1.5677 -2.4489 -3.6945 -2.4489 -5.9123v-41.8057c0 -2.2178 0.8809 -4.3446 2.4489 -5.9123 1.568 -1.5677 3.6948 -2.4488 5.9123 -2.4488ZM215.7688 61.111c-4.3384 0.0027 -8.6225 0.9701 -12.5417 2.8323 -0.2843 -6.2764 -2.5815 -12.2946 -6.551 -17.1644 -3.9705 -4.87 -9.4021 -8.3329 -15.4921 -9.8768 -6.09 -1.5439 -12.5155 -1.0868 -18.3255 1.3038 -5.8099 2.3906 -10.697 6.5877 -13.9369 11.9706 -3.241 5.3828 -4.6624 11.6657 -4.0552 17.9191 0.6062 6.2535 3.2096 12.1455 7.4247 16.8049 4.215 4.6593 9.818 7.8384 15.9792 9.0671 6.1611 1.2287 12.5552 0.4418 18.2345 -2.2444 0.2644 5.723 2.2021 11.2427 5.5738 15.8746 3.3716 4.6321 8.0287 8.172 13.3945 10.1818 5.3647 2.0098 11.2018 2.3996 16.787 1.1235 5.5842 -1.2771 10.672 -4.1649 14.631 -8.3068 3.959 -4.1409 6.6147 -9.3532 7.6389 -14.99 1.0242 -5.6369 0.371 -11.4504 -1.8781 -16.7195 -2.2481 -5.2692 -5.9949 -9.7624 -10.7733 -12.9223 -4.7795 -3.1599 -10.3804 -4.8475 -16.1098 -4.8535Z" stroke-width="1"></path>
+                                    <path fill="#3B82F6" d="M243.2873 150.0107c-3.1114 -2.3934 -6.7328 -4.0384 -10.5831 -4.8045 -3.8492 -0.7672 -7.825 -0.6355 -11.6157 0.3835l-43.7287 10.0543c1.0169 -4.2976 1.0483 -8.7698 0.092 -13.081 -0.9574 -4.3122 -2.8773 -8.3507 -5.6176 -11.8153 -2.7393 -3.4636 -6.228 -6.2625 -10.2037 -8.1866 -3.9747 -1.9231 -8.334 -2.9222 -12.7508 -2.9222H96.56c-4.3938 -0.0115 -8.7462 0.8486 -12.8058 2.5292 -4.0596 1.6817 -7.7458 4.1503 -10.8458 7.2638l-23.6411 23.6515h-29.985c-4.4351 0 -8.6884 1.7621 -11.8245 4.8975 -3.136 3.1365 -4.8978 7.3902 -4.8978 11.8247v41.8057c0 4.4345 1.7618 8.6882 4.8978 11.8247 3.1361 3.1354 7.3894 4.8975 11.8245 4.8975h108.6946c0.6835 0 1.365 -0.0836 2.0276 -0.2508l66.889 -16.7223c0.4264 -0.1013 0.8424 -0.2414 1.2437 -0.418l40.6247 -17.2866 0.4598 -0.2091c3.9047 -1.9513 7.2481 -4.8641 9.7157 -8.4635 2.4665 -3.6005 3.9778 -7.7696 4.3885 -12.1153 0.4107 -4.3446 -0.2916 -8.7238 -2.0401 -12.7225 -1.7496 -3.9987 -4.4868 -7.4863 -7.9567 -10.1347h-0.0418Zm-224.005 19.7949h25.0833v41.8057H19.2823v-41.8057Zm212.613 8.5807 -39.7154 16.9103 -65.2481 16.3147H61.0879v-46.7074l23.6515 -23.6411c1.5473 -1.5593 3.389 -2.7957 5.4182 -3.6371 2.0293 -0.8423 4.2056 -1.2719 6.4024 -1.2646h52.3197c3.3267 0 6.5165 1.3211 8.8681 3.6737 2.3526 2.3516 3.6736 5.5413 3.6736 8.868s-1.321 6.5165 -3.6736 8.868c-2.3516 2.3526 -5.5414 3.6737 -8.8681 3.6737h-29.2639c-2.2178 0 -4.3447 0.8811 -5.9124 2.4488s-2.4487 3.6946 -2.4487 5.9123 0.881 4.3447 2.4487 5.9124 3.6946 2.4488 5.9124 2.4488h33.4445c0.6292 -0.0021 1.2563 -0.0721 1.8708 -0.2091l70.0245 -16.1056 0.3239 -0.0836c2.1374 -0.5936 4.4189 -0.3752 6.4057 0.6125 1.9868 0.9876 3.5378 2.6745 4.3551 4.7376 0.8173 2.062 0.8424 4.354 0.0711 6.4339 -0.7703 2.0808 -2.2836 3.8022 -4.2475 4.8337h0.0314Z" stroke-width="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Fair & Transparent Dispute Resolution</h3>
+                    </div>
+                    <p>DAO arbitration for Web3, structured arbitration for traditional tasks, on-chain proof & e-contracts.</p>
+                </div>
+
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" class="choose-us-svg">
+                                <desc>User Circle Check Duotone Streamline Icon: https://streamlinehq.com</desc>
+                                <g>
+                                    <path fill="#364f73" d="M224 128c0.014 13.463 -2.81 26.778 -8.29 39.076 -5.479 12.297 -13.49 23.302 -23.51 32.294 -6.024 -11.849 -15.211 -21.799 -26.542 -28.748C154.326 163.673 141.292 159.997 128 160c7.911 0 15.645 -2.346 22.223 -6.741 6.578 -4.396 11.705 -10.643 14.732 -17.952 3.028 -7.309 3.82 -15.351 2.276 -23.111 -1.543 -7.759 -5.353 -14.8862 -10.947 -20.4803 -5.594 -5.5941 -12.721 -9.4038 -20.48 -10.9472 -7.76 -1.5434 -15.802 -0.7513 -23.111 2.2762 -7.309 3.0275 -13.5565 8.1544 -17.9518 14.7324C90.346 104.355 88 112.089 88 120c0 10.609 4.2143 20.783 11.7157 28.284C107.217 155.786 117.391 160 128 160c-13.292 -0.003 -26.326 3.673 -37.6578 10.622 -11.3315 6.949 -20.5181 16.899 -26.5422 28.748 -11.8975 -10.702 -20.9311 -24.207 -26.2794 -39.289 -5.3483 -15.082 -6.8417 -31.262 -4.3442 -47.068 2.4974 -15.8065 8.9064 -30.7376 18.6441 -43.436 9.7377 -12.6984 22.4953 -22.7611 37.1125 -29.2732 14.617 -6.5121 30.631 -9.2669 46.584 -8.0139 15.953 1.2529 31.34 6.4739 44.761 15.1881 13.421 8.7143 24.452 20.6453 32.088 34.7082C220.001 96.2491 224.001 111.998 224 128Z" stroke-width="1"></path>
+                                    <path fill="#3B82F6" d="M221.35 104.11c-2.092 0.35 -3.96 1.517 -5.192 3.245 -1.232 1.727 -1.728 3.873 -1.378 5.965 0.812 4.851 1.22 9.761 1.22 14.68 0.019 21.542 -7.898 42.336 -22.24 58.41 -8.922 -12.929 -21.468 -22.932 -36.06 -28.75 7.838 -6.173 13.558 -14.636 16.363 -24.211 2.806 -9.575 2.558 -19.786 -0.709 -29.213 -3.267 -9.4279 -9.39 -17.603 -17.519 -23.389 -8.128 -5.7859 -17.858 -8.8951 -27.835 -8.8951s-19.707 3.1092 -27.835 8.8951c-8.1288 5.786 -14.2523 13.9611 -17.5191 23.389 -3.2669 9.427 -3.5147 19.638 -0.7092 29.213 2.8056 9.575 8.5252 18.038 16.3633 24.211 -14.5918 5.818 -27.1377 15.821 -36.06 28.75 -11.2528 -12.68 -18.6033 -28.341 -21.1675 -45.099 -2.5643 -16.759 -0.2333 -33.901 6.7129 -49.3662 6.9461 -15.4651 18.2116 -28.5945 32.4418 -37.8096C94.4575 44.9201 111.047 40.0117 128 40.0001c4.919 -0.0008 9.829 0.4073 14.68 1.22 2.083 0.3287 4.212 -0.1784 5.923 -1.4111 1.711 -1.2326 2.866 -3.0911 3.214 -5.1711 0.348 -2.0799 -0.139 -4.2132 -1.356 -5.9357 -1.217 -1.7225 -3.064 -2.8948 -5.141 -3.2621 -21.726 -3.6548 -44.051 -0.3106 -63.7516 9.5498 -19.7011 9.8604 -35.7587 25.7267 -45.8545 45.3082 -10.0958 19.5815 -13.7073 41.8649 -10.3131 63.6329 3.3942 21.768 13.6185 41.893 29.1967 57.472 15.5782 15.578 35.7041 25.802 57.4715 29.196 21.768 3.395 44.052 -0.217 63.633 -10.313 19.582 -10.096 35.448 -26.153 45.308 -45.854 9.861 -19.701 13.205 -42.026 9.55 -63.752 -0.35 -2.092 -1.517 -3.96 -3.244 -5.192 -1.728 -1.232 -3.873 -1.728 -5.966 -1.378ZM96 120c0 -6.329 1.8768 -12.516 5.393 -17.778 3.516 -5.2625 8.514 -9.364 14.361 -11.786 5.847 -2.422 12.282 -3.0557 18.489 -1.821 6.207 1.2347 11.909 4.2824 16.384 8.7577 4.476 4.4753 7.523 10.1773 8.758 16.3843 1.235 6.208 0.601 12.642 -1.821 18.489 -2.422 5.847 -6.523 10.845 -11.786 14.361C140.516 150.123 134.329 152 128 152c-8.487 0 -16.626 -3.371 -22.627 -9.372C99.3714 136.626 96 128.487 96 120Zm-21.92 77.5c5.7874 -9.051 13.7601 -16.5 23.1832 -21.659 9.4228 -5.16 19.9938 -7.864 30.7368 -7.864 10.743 0 21.314 2.704 30.737 7.864 9.423 5.159 17.396 12.608 23.183 21.659 -15.417 11.99 -34.39 18.499 -53.92 18.499S89.4967 209.49 74.08 197.5ZM237.66 45.6601l-32 32c-0.743 0.7438 -1.625 1.3339 -2.596 1.7365 -0.972 0.4026 -2.013 0.6098 -3.064 0.6098 -1.051 0 -2.092 -0.2072 -3.064 -0.6098 -0.971 -0.4026 -1.853 -0.9927 -2.596 -1.7365l-16 -16c-0.743 -0.7433 -1.333 -1.6257 -1.735 -2.5968 -0.402 -0.9712 -0.609 -2.012 -0.609 -3.0632 0 -1.0511 0.207 -2.092 0.609 -3.0632 0.402 -0.9711 0.992 -1.8535 1.735 -2.5968 1.501 -1.5011 3.537 -2.3444 5.66 -2.3444 1.051 0 2.092 0.207 3.063 0.6093 0.971 0.4022 1.854 0.9918 2.597 1.7351l10.34 10.35 26.34 -26.35c0.743 -0.7433 1.626 -1.3329 2.597 -1.7351 0.971 -0.4023 2.012 -0.6093 3.063 -0.6093 1.051 0 2.092 0.207 3.063 0.6093 0.971 0.4022 1.854 0.9918 2.597 1.7351 0.743 0.7433 1.333 1.6257 1.735 2.5968 0.402 0.9712 0.609 2.0121 0.609 3.0632 0 1.0512 -0.207 2.092 -0.609 3.0632 -0.402 0.9711 -0.992 1.8535 -1.735 2.5968Z" stroke-width="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>Smarter Job Matching</h3>
+                    </div>
+                    <p>AI-driven task recommendations, flexible work models, instant hiring via Task Catalog.</p>
+                </div>
+
+               
+
+                <div class="choose-us-card">
+                    <div class="choose-us-left">
+                        <div class="choose-us-icon">
+                            <i class="fa-regular fa-users"></i>
+                        </div>
+                        <h3>Integrated Collaboration Tools</h3>
+                    </div>
+                    <p>Chat, voice, video, file sharing, and workflow integrations with Google Drive, Notion, and Trello.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokenomics Section -->
+        <section id="tokenomics" class="tokenomics">
+            <div class="section-header">
+                <span class="badge">OpenTask</span>
+                <h2>Tokenomics</h2>
+            </div>
+            
+            <div class="tokenomics-container">
+                <div class="token-details">
+                    <div class="token-symbol">
+                        <div class="token-info">
+                            <h3>Token Symbol: <span>$TASK</span></h3>
+                            <p>Total Supply: <span>1,000,000,000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tokenomics-content">
+                    <div class="token-utility">
+                        <h3>Token Utility</h3>
+                        <ul class="utility-list">
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <div>
+                                    <h4>Freelance Payments</h4>
+                                    <p>Zero-fee transactions for Web3-based task payments.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <div>
+                                    <h4>Governance & DAO Voting</h4>
+                                    <p>Token holders influence platform updates and dispute resolutions.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <div>
+                                    <h4>Reputation Boosting</h4>
+                                    <p>Staking $TASK enhances freelancer ranking and visibility.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <div>
+                                    <h4>Incentives & Rewards</h4>
+                                    <p>Freelancers earn additional tokens for completing high-quality work.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="token-allocation">
+                        <h3>Token Allocation</h3>
+                        <div class="allocation-chart">
+                            <div class="chart-container">
+                                <!-- This would be replaced with an actual chart in production -->
+                                <div class="placeholder-chart">
+                                    <div class="chart-segment segment-1" title="Community Incentives & Rewards: 20%"></div>
+                                    <div class="chart-segment segment-2" title="Ecosystem Development Fund: 10%"></div>
+                                    <div class="chart-segment segment-3" title="Team & Advisors: 5%"></div>
+                                    <div class="chart-segment segment-4" title="Liquidity & Market Support: 55%"></div>
+                                    <div class="chart-segment segment-5" title="Marketing & Partnerships: 10%"></div>
+                                </div>
+                            </div>
+                            <ul class="allocation-list">
+                                <li>
+                                    <span class="allocation-color color-1"></span>
+                                    <span class="allocation-name">Community Incentives & Rewards:</span>
+                                    <span class="allocation-percentage">20%</span>
+                                </li>
+                                <li>
+                                    <span class="allocation-color color-2"></span>
+                                    <span class="allocation-name">Ecosystem Development Fund:</span>
+                                    <span class="allocation-percentage">10%</span>
+                                </li>
+                                <li>
+                                    <span class="allocation-color color-3"></span>
+                                    <span class="allocation-name">Team & Advisors:</span>
+                                    <span class="allocation-percentage">5%</span>
+                                </li>
+                                <li>
+                                    <span class="allocation-color color-4"></span>
+                                    <span class="allocation-name">Liquidity & Market Support:</span>
+                                    <span class="allocation-percentage">55%</span>
+                                </li>
+                                <li>
+                                    <span class="allocation-color color-5"></span>
+                                    <span class="allocation-name">Marketing & Partnerships:</span>
+                                    <span class="allocation-percentage">10%</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="roadmap">
+            <div class="section-header">
+                <span class="badge">OpenTask</span>
+                <h2>Roadmap</h2>
+            </div>
+            
+            <div class="roadmap-container">
+                <div class="roadmap-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="phase-number">Phase 1</div>
+                            <h3>Platform Launch</h3>
+                            <p class="phase-subtitle">Foundation & Early Adoption</p>
+                            <ul class="phase-list">
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Deploy smart contract escrow for secure freelancer payments</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Enable Web3 identity (DID) & NFT-based reputation system</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Open the task marketplace for freelancers and employers</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Support multi-payment options, including crypto and fiat</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="phase-number">Phase 2</div>
+                            <h3>Ecosystem Expansion</h3>
+                            <ul class="phase-list">
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Introduce DAO-based dispute resolution for Web3 jobs</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Implement AI-powered job matching to optimize hiring</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Expand Task Catalog for instant fixed-price service listings</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Launch cross-platform reputation sync (LinkedIn, GitHub, etc.)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="phase-number">Phase 3</div>
+                            <h3>Staking, Governance, & Ecosystem Growth</h3>
+                            <ul class="phase-list">
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Enable $TASK staking for reputation boosts and priority task access</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Introduce freelancer and employer dashboards with analytics</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Expand partnerships with Web3 projects and traditional enterprises</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Host community governance proposals for feature updates</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="phase-number">Phase 4</div>
+                            <h3>Full Decentralization & Enterprise-Scale Adoption</h3>
+                            <ul class="phase-list">
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Launch full DAO governance for platform decisions</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Expand cross-chain support for seamless crypto payments</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Introduce enhanced collaboration tools (voice, video, project tracking)</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check-circle"></i>
+                                    <span>Scale the platform for enterprise hiring & long-term contracts</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="section-header">
+                <span class="badge">OpenTask</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is OpenTask?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>OpenTask is a decentralized freelance platform that supports both Web3 and traditional industries. It provides secure smart contract escrow payments, AI-powered job matching, and a reputation system to ensure fair collaboration between freelancers and employers.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How is OpenTask different from traditional freelance platforms?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li>Eliminates high fees by allowing crypto payments with zero platform fees.</li>
+                                <li>Supports both Web3 & traditional jobs, offering flexibility for freelancers.</li>
+                                <li>Uses smart contracts to ensure secure, trustless payments.</li>
+                                <li>Employs decentralized governance (DAO) for dispute resolution and platform updates.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What types of jobs can I find on OpenTask?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p><strong>Web3:</strong> Blockchain development, smart contract auditing, NFT design, DeFi research.</p>
+                            <p><strong>Traditional:</strong> IT development, graphic design, content writing, marketing, legal consulting, and more.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do payments work on OpenTask?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li><strong>Crypto Payments:</strong> Freelancers can receive payments in $TASK, ETH, USDT, USDC, secured via smart contract escrow.</li>
+                                <li><strong>Fiat Payments:</strong> Employers can pay via Stripe, PayPal, or bank transfer, ensuring flexibility.</li>
+                                <li><strong>Hybrid Model:</strong> Businesses can pay in fiat, while freelancers choose crypto or fiat for withdrawal.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How does OpenTask ensure freelancer and employer credibility?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li>Blockchain-based reputation system (NFT credentials) records freelancer performance transparently.</li>
+                                <li>The traditional rating system allows employers to review freelancer ratings, feedback, and past work.</li>
+                                <li>Cross-platform verification enables users to sync profiles from LinkedIn, GitHub, Behance, and more.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What happens if a dispute arises?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li>Web3 disputes are resolved via DAO arbitration, where $TASK holders vote on resolutions.</li>
+                                <li>Traditional disputes go through a multi-step arbitration process, including AI-based analysis and manual review.</li>
+                                <li>All task agreements and progress are recorded either on-chain (Web3) or through legally binding e-contracts (traditional).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How does OpenTask use $TASK tokens?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li>Freelance payments (zero fees on $TASK transactions).</li>
+                                <li>Governance (voting on platform updates and dispute resolutions).</li>
+                                <li>Reputation staking (freelancers can stake tokens to enhance visibility).</li>
+                                <li>Incentives & rewards (freelancers earn extra tokens for high-quality work).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What fees does OpenTask charge?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li>Zero fees on $TASK payments.</li>
+                                <li>Low 1.5% transaction fee for fiat and external crypto payments.</li>
+                                <li>No hidden charges or service fees for freelancers.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How can I get started on OpenTask?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <ul>
+                                <li><strong>Freelancers:</strong> Create a DID profile, verify credentials, and start applying for jobs or listing services.</li>
+                                <li><strong>Employers:</strong> Post jobs, deposit funds in escrow, and hire top talent.</li>
+                                <li>Both freelancers and employers can stake $TASK for additional benefits.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is OpenTask fully decentralized?</h3>
+                            <div class="faq-toggle">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, OpenTask is community-governed through a DAO model, meaning no single entity controls disputes, payments, or rules—everything is driven by smart contracts and token holder votes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer id="join-now" class="footer">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <img src="imgs/hd.png" alt="OpenTask Logo">
+                        <p>The decentralized freelance platform redefining trust and efficiency in both Web3 and traditional industries.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <p>&copy; 2025 OpenTask. All rights reserved.</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://x.com/OpenTask_" aria-label="Twitter" style="text-decoration: none;" target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://t.me/OpenTask_Portal" aria-label="Telegram" style="text-decoration: none;" target="_blank">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html> 
