@@ -1,0 +1,1 @@
+Just drag and drop light-leaks composition to the timeline and change the blending mode (Screen or Add)
